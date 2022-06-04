@@ -1,0 +1,19 @@
+@model Usuario
+@{
+    ViewBag.Subtitulo = "Exclusão";
+}
+
+
+    <h1 class="text-primary">Cadastro de Usuário</h1>
+    <hr>
+    <div class="container">
+        <h4 class="text-primary">Deseja realmente excluir o usuario <span class="text-danger">@Model.Nome?</span></h4>
+        <hr>
+        <form method="POST" class="w-25">
+            <input type="hidden" asp-for="IdUsuario">
+            <div class="mt-3">
+                <a asp-action="Usuarios" class="btn btn-success">Não</a>
+                <button class="btn btn-danger" type="submit">Sim</button>
+            </div>    
+        </form>
+   

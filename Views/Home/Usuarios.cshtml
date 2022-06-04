@@ -1,0 +1,37 @@
+@model IQueryable<Usuario>
+    @{
+    ViewBag.Subtitulo = "Listagem";
+}
+
+        <h1 class="text-primary">Usuários.</h1>
+        <hr>
+        <a href="/Home/Cadastrar" class="btn btn-primary">Novo usuário</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var u in Model)
+                {
+                    <tr>
+                        <td>@u.IdUsuario</td>
+                        <td>@u.Nome</td>
+                        <td>@u.Email</td>
+                        <td>
+                            <a asp-action="Cadastrar" asp-route-id="@u.IdUsuario"
+                            class="btn btn-sm btn-secondary">Alterar</a>
+
+                             <a asp-action="Excluir" asp-route-id="@u.IdUsuario"
+                            class="btn btn-sm btn-danger">Excluir</a>
+                            
+                        </td>
+                    </tr>
+                }
+              
+            </tbody>
+        </table>
