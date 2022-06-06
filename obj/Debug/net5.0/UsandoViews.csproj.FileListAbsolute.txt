@@ -355,3 +355,5 @@ C:\Users\moise\OneDrive\Área de Trabalho\UsandoViews.v1\UsandoViews\obj\Debug\n
 C:\Users\moise\OneDrive\Área de Trabalho\UsandoViews.v1\UsandoViews\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\moise\OneDrive\Área de Trabalho\UsandoViews.v1\UsandoViews\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\moise\OneDrive\Área de Trabalho\UsandoViews.v1\UsandoViews\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\moise\OneDrive\Área de Trabalho\UsandoViews.v1\UsandoViews\obj\Debug\net5.0\Razor\Views\Shared\_MensagemErro.cshtml.g.cs
+C:\Users\moise\OneDrive\Área de Trabalho\UsandoViews.v1\UsandoViews\obj\Debug\net5.0\Razor\Views\Shared\_MensagemInfo.cshtml.g.cs
